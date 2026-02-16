@@ -165,6 +165,9 @@ def update_chart(selected_region):
     return fig
 
 # Run the app
+# For Vercel deployment
+server = app.server
+
 if __name__ == '__main__':
     print("Starting Dash app...")
     print("Go to: http://127.0.0.1:8050/")
